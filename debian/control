@@ -1,0 +1,25 @@
+Source: node-console-browserify
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-tape <!nocheck>
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-console-browserify
+Vcs-Git: https://salsa.debian.org/js-team/node-console-browserify.git
+Homepage: https://github.com/Raynos/console-browserify
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-console-browserify
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Emulate console for all the browsers
+ This package emulates console in browser context. It is thus possible
+ to use warn(), error() and trace() in your browser. By default this package
+ redirect console API to internal console of your browser.
+ .
+ Node.js is an event-based server-side JavaScript engine.

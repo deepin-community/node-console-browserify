@@ -1,0 +1,43 @@
+node-console-browserify (1.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-console-browserify: Add Multi-Arch: foreign.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * debian/watch: use github tags
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 1.2.0
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 21 Dec 2020 09:20:10 +0100
+
+node-console-browserify (1.1.0+20161220gitf0a8898487-3) unstable; urgency=medium
+
+  * Bump debhelper and policy (no changes)
+  * Move to /usr/share
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 15 Sep 2019 17:48:38 +0200
+
+node-console-browserify (1.1.0+20161220gitf0a8898487-2) unstable; urgency=medium
+
+  * Move to salsa
+  * Bump compat and policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 18 May 2018 14:14:03 +0200
+
+node-console-browserify (1.1.0+20161220gitf0a8898487-1) unstable; urgency=low
+
+  * Initial release (Closes: #860324)
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 14 Apr 2017 17:37:29 +0200
